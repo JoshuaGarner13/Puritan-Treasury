@@ -1,0 +1,119 @@
+[
+  {
+    "id": "mortification-5-day",
+    "title": "Mortifying Sin in 5 Days",
+    "description": "A focused study of John Owen's practical approach to killing sin",
+    "bookId": "mortification-of-sin",
+    "duration": 5,
+    "schedule": [
+      {
+        "day": 1,
+        "title": "The Urgency of Mortification",
+        "chapterIds": [1],
+        "reflection": "Consider: What sins in your life need urgent attention? How does Owen's warning 'be killing sin or it will be killing you' apply to your current struggles?"
+      },
+      {
+        "day": 2,
+        "title": "Understanding What Mortification Is",
+        "chapterIds": [2],
+        "reflection": "Reflect: How does Owen's definition of mortification as 'constant weakening' change your approach to fighting sin? What does gradual progress look like in your life?"
+      },
+      {
+        "day": 3,
+        "title": "The Spirit's Role in Mortification",
+        "chapterIds": [3],
+        "reflection": "Pray: How can you better depend on the Holy Spirit while remaining diligent in your own efforts? What means of grace do you need to use more faithfully?"
+      },
+      {
+        "day": 4,
+        "title": "Practical Steps",
+        "chapterIds": [1, 2],
+        "reflection": "Plan: Based on Owen's teaching, what specific steps will you take this week to mortify sin? How will you measure progress?"
+      },
+      {
+        "day": 5,
+        "title": "Living in Victory",
+        "chapterIds": [1, 2, 3],
+        "reflection": "Commit: How will you maintain this work of mortification as a lifelong practice? What encouragements will you remember when the battle is hard?"
+      }
+    ]
+  },
+  {
+    "id": "bruised-reed-comfort",
+    "title": "Finding Comfort for Weak Faith",
+    "description": "Discover Christ's tender care for struggling believers with Richard Sibbes",
+    "bookId": "bruised-reed",
+    "duration": 3,
+    "schedule": [
+      {
+        "day": 1,
+        "title": "Christ's Gentle Nature",
+        "chapterIds": [1],
+        "reflection": "Rest: How does knowing that Christ will not break bruised reeds comfort you in your current struggles? What fears can you release to His gentle care?"
+      },
+      {
+        "day": 2,
+        "title": "Recognizing Your Weakness",
+        "chapterIds": [2],
+        "reflection": "Examine: Do you see yourself as a 'bruised reed'? How can acknowledging your weakness actually strengthen your faith in Christ's care?"
+      },
+      {
+        "day": 3,
+        "title": "Growing in Grace",
+        "chapterIds": [1, 2],
+        "reflection": "Hope: What small evidences of grace do you see in your life? How will you nurture these 'smoking flax' signs of spiritual life?"
+      }
+    ]
+  },
+  {
+    "id": "catechism-foundations",
+    "title": "Foundations of Faith",
+    "description": "Build your theological foundation with Thomas Watson's systematic approach",
+    "bookId": "body-of-divinity",
+    "duration": 7,
+    "schedule": [
+      {
+        "day": 1,
+        "title": "Our Chief End",
+        "chapterIds": [1],
+        "reflection": "Purpose: How does living for God's glory change your daily priorities? What would it look like to make this your primary aim?"
+      },
+      {
+        "day": 2,
+        "title": "God's Word as Guide",
+        "chapterIds": [2],
+        "reflection": "Foundation: How can you better use Scripture as your 'compass'? What areas of life need more biblical direction?"
+      },
+      {
+        "day": 3,
+        "title": "Review and Application",
+        "chapterIds": [1, 2],
+        "reflection": "Integration: How do these foundational truths about glorifying God and following Scripture connect? What changes will you make?"
+      },
+      {
+        "day": 4,
+        "title": "Living for God's Glory",
+        "chapterIds": [1],
+        "reflection": "Practice: Choose three specific ways you will glorify God today. How can you make this a daily habit?"
+      },
+      {
+        "day": 5,
+        "title": "Scripture as Authority",
+        "chapterIds": [2],
+        "reflection": "Submission: What areas of your life resist biblical authority? How will you bring these under God's Word?"
+      },
+      {
+        "day": 6,
+        "title": "Putting It Together",
+        "chapterIds": [1, 2],
+        "reflection": "Synthesis: How do glorifying God and following Scripture work together in the Christian life? What have you learned?"
+      },
+      {
+        "day": 7,
+        "title": "Moving Forward",
+        "chapterIds": [1, 2],
+        "reflection": "Commitment: What theological foundations will you continue to build on? How will you maintain regular study of doctrine?"
+      }
+    ]
+  }
+]

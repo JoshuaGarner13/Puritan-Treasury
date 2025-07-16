@@ -61,7 +61,18 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom theological colors
+				parchment: 'hsl(var(--parchment))',
+				ink: 'hsl(var(--ink))',
+				gold: 'hsl(var(--gold))',
+				leather: 'hsl(var(--leather))',
+				vellum: 'hsl(var(--vellum))'
+			},
+			fontFamily: {
+				heading: ['var(--font-heading)'],
+				body: ['var(--font-body)'],
+				ui: ['var(--font-ui)']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

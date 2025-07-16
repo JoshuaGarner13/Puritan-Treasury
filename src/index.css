@@ -1,42 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Reformed Theological Reading App Design System */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Scholarly color palette - warm earth tones */
+    --background: 42 15% 97%;
+    --foreground: 25 25% 15%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 40 20% 99%;
+    --card-foreground: 25 25% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 40 20% 99%;
+    --popover-foreground: 25 25% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Rich theological brown as primary */
+    --primary: 25 35% 25%;
+    --primary-foreground: 42 15% 97%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Warm parchment secondary */
+    --secondary: 42 30% 92%;
+    --secondary-foreground: 25 35% 25%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted scholarly tones */
+    --muted: 40 15% 90%;
+    --muted-foreground: 25 15% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Golden accent for highlights */
+    --accent: 38 50% 85%;
+    --accent-foreground: 25 35% 25%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 42 15% 97%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 40 15% 85%;
+    --input: 40 15% 85%;
+    --ring: 25 35% 25%;
 
     --radius: 0.5rem;
+
+    /* Custom theological colors */
+    --parchment: 42 40% 96%;
+    --ink: 25 30% 20%;
+    --gold: 38 60% 70%;
+    --leather: 25 40% 30%;
+    --vellum: 40 25% 98%;
+
+    /* Gradients for scholarly feel */
+    --gradient-parchment: linear-gradient(135deg, hsl(var(--parchment)), hsl(var(--background)));
+    --gradient-leather: linear-gradient(135deg, hsl(var(--leather)), hsl(var(--primary)));
+    
+    /* Typography scale for theological texts */
+    --font-heading: 'Crimson Text', serif;
+    --font-body: 'Crimson Text', serif;
+    --font-ui: 'Inter', sans-serif;
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -100,6 +123,47 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-body leading-relaxed;
+  }
+
+  /* Typography styles for theological content */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+
+  .theological-text {
+    font-family: var(--font-body);
+    line-height: 1.7;
+  }
+
+  .ui-text {
+    font-family: var(--font-ui);
+  }
+}
+
+@layer components {
+  /* Scholarly button variant */
+  .btn-scholar {
+    @apply bg-primary text-primary-foreground hover:bg-leather border border-border rounded-lg px-4 py-2 font-ui font-medium transition-colors;
+  }
+
+  /* Parchment background for reading areas */
+  .parchment-bg {
+    background: var(--gradient-parchment);
+    @apply border border-border rounded-lg;
+  }
+
+  /* Quote highlight styles */
+  .quote-highlight {
+    @apply bg-accent/30 border-l-4 border-gold px-3 py-2 italic;
+  }
+
+  /* Reading progress indicator */
+  .progress-ring {
+    @apply w-8 h-8 rounded-full border-2 border-muted flex items-center justify-center text-xs font-ui;
+  }
+
+  .progress-ring.completed {
+    @apply bg-primary text-primary-foreground border-primary;
   }
 }
